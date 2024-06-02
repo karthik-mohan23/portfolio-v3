@@ -4,6 +4,7 @@ function page() {
   return (
     <div>
       <Hero />
+      <div className="min-h-screen"></div>
     </div>
   );
 }

@@ -1,8 +1,10 @@
 import { AuroraBackground } from "../components/ui/aurora-background";
+import { FloatingNavbar } from "../components/ui/Navbar";
 
 function Hero() {
   return (
     <AuroraBackground>
+      <FloatingNavbar />
       <div className="">
         <h1 className="text-white font-bold text-7xl max-w-3xl text-center">
           Hi, my name is KARTHIK MOHAN.

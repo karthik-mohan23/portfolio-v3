@@ -1,10 +1,11 @@
 import Hero from "./pages/Hero";
+import Skills from "./pages/Skills";
 
 function page() {
   return (
     <div>
       <Hero />
-      <div className="min-h-screen"></div>
+      <Skills />
     </div>
   );
 }

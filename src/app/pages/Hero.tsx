@@ -1,4 +1,5 @@
 import { AuroraBackground } from "../components/ui/aurora-background";
+import { GradientButton } from "../components/ui/GradientButton";
 import { FloatingNavbar } from "../components/ui/Navbar";
 
 function Hero() {
@@ -13,9 +14,7 @@ function Hero() {
           Full Stack Developer
         </p>
         <div className="flex justify-center">
-          <button className="bg-white px-4 py-2 rounded-full hover:cursor-pointer">
-            Contact
-          </button>
+          <GradientButton />
         </div>
       </div>
       <p>And this, is chemical burn.</p>

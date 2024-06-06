@@ -9,7 +9,7 @@ function Skills() {
         <div className="max-w-4xl mx-auto w-[95%] py-20">
           <div className="flex flex-wrap gap-4">
             {skillsData.map(({ label, image }) => (
-              <BackgroundGradientDemo label={label} image={image} />
+              <BackgroundGradientDemo label={label} image={image} key={label} />
             ))}
           </div>
         </div>
